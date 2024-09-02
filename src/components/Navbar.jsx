@@ -46,7 +46,6 @@ const Navbar = ({ isLogIn, handleLogin, handleLogout }) => {
         <ToggleSwitch
           isChecked={theme === 'dark'}
           onToggle={toggleTheme}
-          label={theme === 'light' ? 'Light Mode' : 'Dark Mode'}
         />
       </div>
     </nav>
