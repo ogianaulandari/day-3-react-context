@@ -1,4 +1,8 @@
 import Footer from "./footer";
+import facebook from "../assets/images/facebook.jpg";
+import twitter from "../assets/images/twitter.jpg";
+import instagram from "../assets/images/instagram.jpg";
+import youtube from "../assets/images/youtube.jpg";
 
 const Contact = () => {
   return (
@@ -27,10 +31,17 @@ const Contact = () => {
           </div>
           <div className="border border-gray-500 rounded-lg p-6 text-left w-96">
             <h2 className="text-2xl font-bold mb-4">Kantor Kami</h2>
-            <h3 className="text-lg font-bold">PaDI UMKM Headquarters<br />Gedung Telkom Direktorat Business aand Technology</h3>
+            <h3 className="text-base font-semibold">PaDI UMKM Headquarters<br />Gedung Telkom Direktorat Business aand Technology</h3>
             <p className="text-sm">
               Jln. Prof. Dr. Soepomo No. 139. Jakarta Selatan, DKI Jakarta, 12810 Indonesia
             </p>
+            <h2 className="text-2xl font-bold mb-4 mt-2">Ikuti Media Sosial Kami</h2>
+            <div className="flex items-center space-x-3">
+            <img src={ facebook } alt="Facebook"/>
+            <img src={ twitter } alt="Twitter" />
+            <img src={ instagram } alt="Instagram" />
+            <img src={ youtube } alt="Youtube" />
+            </div>
           </div>
         </div>
       </div>
