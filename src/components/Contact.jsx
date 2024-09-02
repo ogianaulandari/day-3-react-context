@@ -1,8 +1,8 @@
 import Footer from "./footer";
-import facebook from "../assets/images/facebook.jpg";
-import twitter from "../assets/images/twitter.jpg";
-import instagram from "../assets/images/instagram.jpg";
-import youtube from "../assets/images/youtube.jpg";
+import facebook from "../assets/images/contact/facebook.jpg";
+import twitter from "../assets/images/contact/twitter.jpg";
+import instagram from "../assets/images/contact/instagram.jpg";
+import youtube from "../assets/images/contact/youtube.jpg";
 
 const Contact = () => {
   return (

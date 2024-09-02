@@ -2,7 +2,7 @@ import { useTheme } from '../context/ThemeContext';
 import { NavLink } from 'react-router-dom';
 import ToggleSwitch from './ToggleSwitch';
 import PropTypes from 'prop-types';
-import logo from '../assets/images/logo.jpg';
+import logo from '../assets/images/navbar/logo.jpg';
 
 const Navbar = ({ isLogIn, handleLogin, handleLogout }) => {
   const { theme, toggleTheme } = useTheme();
@@ -13,10 +13,10 @@ const Navbar = ({ isLogIn, handleLogin, handleLogout }) => {
   return (
     <nav className="px-10 py-5 shadow-md bg-white dark:bg-gray-800 text-teal-800 dark:text-white flex justify-between items-center">
       <div className="flex items-center">
-        <img src={ logo } alt="Logo" className="h-10"/>
+        <img src={ logo } alt="Logo" className="h-12"/>
       </div>
       <div className="flex-grow flex justify-center">
-        <div className="flex items-center space-x-9 ml-12">
+        <div className="flex items-center text-xl space-x-9 ml-12">
           <NavLink to="/" className={ getClassName }>
             Beranda
           </NavLink>

@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
-import moon from "../assets/images/moonlight.png";
-import sun from "../assets/images/sunlight.png";
+import moon from "../assets/images/navbar/moonlight.png";
+import sun from "../assets/images/navbar/sunlight.png";
 
 const ToggleSwitch = ({ isChecked, onToggle }) => {
     return (
